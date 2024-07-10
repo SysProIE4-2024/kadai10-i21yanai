@@ -75,5 +75,14 @@ retval = 00007f00
 system:
 sh: ABCD: command not found
 retval = 00007f00
+% ./mysysmain "rm"     
+mysystem:
+usage: rm [-f | -i] [-dIPRrvWx] file ...
+       unlink [--] file
+retval = 00004000
+system:
+usage: rm [-f | -i] [-dIPRrvWx] file ...
+       unlink [--] file
+retval = 00004000
 
 */
